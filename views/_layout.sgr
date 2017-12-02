@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    block(name='meta')
+      include(src='_meta.sgr')
+
+  body.header-page.wsite-page-index.collapsed-menu-off.banner-bg-on.wsite-theme-light
+    block(name='nav')
+      include(src='_nav.sgr')
+
+    block(name='content')
+
+    block(name='javascript')
+      include(src='_scriptz.sgr')

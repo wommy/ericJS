@@ -1,29 +1,150 @@
-extends(src='layout.sgr')
+extends(src='_layout.sgr')
   block(name='content')
-    h2 Hello World!
-    p(retext-skip) Thanks for using <a href='https://github.com/static-dev/spike'>spike</a>
-    p Example of locals: {{ foo }}
-    p(mdi) Example of **markdown**
-    p Example of "smart quotes" -- and dashes
-
-    hr
-
-    h3 Getting Started
-    h4 The Stack:
-    ul
-      li
-        a(href="http://github.com/reshape/reshape") reshape
-        |  for HTML transforms
-      li
-        a(href="https://babeljs.io/") babel
-        |  for JS transforms
-      li
-        a(href="http://postcss.org/") postcss
-        |  for CSS transforms
-      li
-        a(href="http://webpack.github.io") webpack
-        |  for JS bundling
-
-    p Customize your settings by editing the
-      a(href="https://spike.readme.io/docs/appjs") app.js
-      |  file or simply start by editing this view
+    .banner-wrap
+      .wsite-elements.wsite-not-footer.wsite-header-elements
+        .wsite-section-wrap
+          .wsite-section.wsite-header-section.wsite-section-bg-image(style='vertical-align: middle;height: auto;background-image: url("//cdn2.editmysite.com/images/editor/theme-background/stock/Skyscrapers.jpg") ;background-repeat: no-repeat ;background-position: undefined undefined ;background-size: 100% ;background-color: transparent ;background-size: cover;')
+            .wsite-section-content
+              .container
+                .banner
+                  .wsite-section-elements
+                    span.imgPusher(style='float:right;height:0px')
+                    span(style='display: table;width:auto;position:relative;float:right;max-width:100%;;clear:right;margin-top:0px;*margin-top:0px')
+                      a
+                        img.galleryImageBorder.wsite-image(src='/uploads/1/1/5/2/115258265/editor/teaching-now.png?250', style='margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:1px;padding:3px; max-width:100%', alt='Picture')
+                      span.wsite-caption(style='display: table-caption; caption-side: bottom; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;')
+                    .paragraph(style='text-align:left;display:block;')
+                      font(size='4')
+                        font(color='#2a2a2a') I am an assistant professor in the
+                        strong
+                          u
+                            a(href='https://www.towson.edu/cla/departments/polisci/', target='_blank')
+                              font(color='#2a2a2a') Department of Political Science
+                        font(color='#2a2a2a')
+                          | at Towson University.  My primary focus is economic development policy at the state, region, and local levels.
+                          br
+                          br
+                          | I research why state and local governments use various sets of economic development policies, what impact those policies have on fostering economic growth, and how competition within metropolitan regions impact economic development decision making.
+                          br
+                          br
+                          | My research has been featured most recently in
+                          em Urban Affairs Review
+                          | ,
+                          em State and Local Government Review
+                          | , and
+                          em Economic Development Quarterly
+                          | .
+                    hr(style='width:100%;clear:both;visibility:hidden;')
+            div
+    .main-wrap
+      #wsite-content.wsite-elements.wsite-not-footer
+        .wsite-section-wrap
+          .wsite-section.wsite-body-section.wsite-section-bg-color.wsite-background-3(style='height: 430px;background-color: #fcfcfc;background-image: none;')
+            .wsite-section-content
+              .container
+                .wsite-section-elements
+                  h2.wsite-content-title(style='text-align:center;')
+                    span
+                      font(color='#2a2a2a') Teaching
+                  span.imgPusher(style='float:left;height:0px')
+                  span(style='display: table;width:337px;position:relative;float:left;max-width:100%;;clear:left;margin-top:0px;*margin-top:0px')
+                    a
+                      img.galleryImageBorder.wsite-image(src='/uploads/1/1/5/2/115258265/published/economic-development_1.png?1511562341', style='margin-top: 10px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:0; max-width:100%', alt='Picture')
+                    span.wsite-caption(style='display: table-caption; caption-side: bottom; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;')
+                  .paragraph(style='display:block;')
+                    font(size='4')
+                      span(style='color:rgb(42, 42, 42)') I  teach the following courses at Towson University:
+                      br
+                      br
+                      span(style='color:rgb(42, 42, 42)') MTRO 101: Metropolitan Studies
+                      br
+                      span(style='color:rgb(42, 42, 42)') POSC 207: State and Local Government
+                      br
+                      span(style='color:rgb(42, 42, 42)') POSC 301: Research Methods
+                      br
+                      span(style='color:rgb(42, 42, 42)') POSC 304: Politics of Metropolitan Change and Growth
+                      br
+                      span(style='color:rgb(42, 42, 42)') ​POSC 479: Introduction to Public Policy
+                      br
+                      span(style='color:rgb(42, 42, 42)') POSC 492: Seminar in State and Local Government 
+                      | ​
+                  hr(style='width:100%;clear:both;visibility:hidden;')
+        .wsite-section-wrap
+          .wsite-section.wsite-body-section.wsite-section-bg-color.wsite-background-5(style='height: auto;vertical-align: middle;background-color: #ffffff;background-image: none;')
+            .wsite-section-content
+              .container
+                .wsite-section-elements
+                  .wsite-spacer(style='height:37px;')
+                  h2.wsite-content-title(style='text-align:center;')
+                    strong
+                      font(size='6', color='#2a2a2a') Feel free to contact me
+                  .wsite-spacer(style='height:26px;')
+                  .wsite-spacer(style='height:50px;')
+                  div
+                    .wsite-multicol
+                      .wsite-multicol-table-wrap(style='margin:0 -55px;')
+                        table.wsite-multicol-table
+                          tbody.wsite-multicol-tbody
+                            tr.wsite-multicol-tr
+                              td.wsite-multicol-col(style='width:33.333333333333%; padding:0 55px;')
+                                div
+                                  .wsite-image.wsite-image-border-none.wsite-image-border-black(style='padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center')
+                                    a(href='/uploads/1/1/5/2/115258265/edited/icon-map_1.png', rel='lightbox', onclick='if (!lightboxLoaded) return false')
+                                      img(src='/uploads/1/1/5/2/115258265/published/icon-map_1.png?1511555275', alt='Picture', style='width:auto;max-width:100%')
+                                    div(style='display:block;font-size:90%')
+                                .paragraph(style='text-align:center;')
+                                  font(color='#2a2a2a')
+                                    font(size='3', style='')
+                                      strong(style='') Liberal Arts Building RM #3228
+                                    br
+                                    strong(style='')
+                                      font(size='3', style='')
+                                        | 8000 York Road
+                                        br
+                                        | Towson, MD 21252
+                              td.wsite-multicol-col(style='width:33.333333333333%; padding:0 55px;')
+                                div
+                                  .wsite-image.wsite-image-border-none(style='padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center')
+                                    a
+                                      img(src='/uploads/1/1/5/2/115258265/icon-phone_1_orig.png', alt='Picture', style='width:auto;max-width:100%')
+                                    div(style='display:block;font-size:90%')
+                                .paragraph(style='text-align:center;')
+                                  font(color='#2a2a2a')
+                                    font(size='3')
+                                      strong MAIN: (586) 202-7540
+                                    br
+                                    strong
+                                      font(size='3') Office: (410) 704-2207
+                              td.wsite-multicol-col(style='width:33.333333333333%; padding:0 55px;')
+                                div
+                                  .wsite-image.wsite-image-border-none(style='padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center')
+                                    a
+                                      img(src='/uploads/1/1/5/2/115258265/icon-email_1_orig.png', alt='Picture', style='width:auto;max-width:100%')
+                                    div(style='display:block;font-size:90%')
+                                .paragraph(style='text-align:center;')
+                                  strong
+                                    span
+                                      font(color='#2a2a2a', size='3')
+                                        | Ericjstokan@gmail.com
+                                        br
+                                        | Estokan@towson.edu
+                  .wsite-spacer(style='height:64px;')
+    .footer-wrap
+      .container
+        .footer
+          .wsite-elements.wsite-footer
+            div
+              .wsite-multicol
+                .wsite-multicol-table-wrap(style='margin:0 -15px;')
+                  table.wsite-multicol-table
+                    tbody.wsite-multicol-tbody
+                      tr.wsite-multicol-tr
+                        td.wsite-multicol-col(style='width:50%; padding:0 15px;')
+                          .wsite-spacer(style='height:50px;')
+                        td.wsite-multicol-col(style='width:50%; padding:0 15px;')
+                          .wsite-spacer(style='height:50px;')
+            .weebly-footer(style='text-align:right;')
+              div(style='height:10px;overflow:hidden')
+              | Proudly powered by
+              a(href='https://www.weebly.com/?utm_source=internal&utm_medium=footer&utm_campaign=2') Weebly
+              div(style='height:10px;overflow:hidden')
