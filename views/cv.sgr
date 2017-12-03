@@ -1,104 +1,105 @@
 extends(src='_layout.sgr')
   block(name='content')
     h2 CURRICULUM VITAE
-    h3 ACADEMIC APPOINTMENTS
-    ul
-      li Assistant Professor, Department of Political Science, Towson University (2016- )
-    h3 EDUCATION
-    ul
-      li Ph.D. in Public Policy and Public Administration, George Washington University (Spring 2016)
-      li M.A. in Political Science, Wayne State University  (Spring 2007)
-      li B.A. in Political Science/Honors, Wayne State University (Spring 2005)
-    h3 CERTIFICATIONS
-    ul
-      li Inter-University Consortium of Political and Social Research (ICPSR) (Summer 2013)
+    div.flex.column
+      h3 ACADEMIC APPOINTMENTS
       ul
-        li Empirical Implications of Theoretical Models (EITM) Certification
-        li Bayesian Analysis and Longitudinal Analysis
-    h3 RESEARCH AND TEACHING INTERESTS
-    ul
-      li Urban Policy and Politics, Metropolitan Change, Urban Economic Development, Public Finance, State and Local Government, Policy Evaluation, and Research Methods and Design
-    h3 PEER-REVIEWED PUBLICATIONS
-    ul
-      li "Hierarchies of Need in Sustainable Development: A Resource Dependence Approach for Local Governance," with Aaron Deslatte (2017, Urban Affairs Review).
-      li "Accounting for the State in Local Economic Development Incentive Usage." (2017, State and Local Government Review).
-      li "Testing the Differential Effect of Business Incubators on Firm Growth," with Lyke Thompson and Robert Mahu (2015, Economic Development Quarterly).
-      li "Manufacturing Job Loss in U.S. Deindustrializing Regions- Its Consequences and Implications for the Future: Examining Conventional Wisdom," with Hal Wolman and Howard Wial (2015, Economic Development Quarterly).
-      li "Testing Rubin's Model 25 Years Later: A Multi-Estimate and Multi-Level Approach to Local Economic Development Incentive Adoption (2013, Economic Development Quarterly).
-    h3 PEER-REVIEWED ARTICLES UNDER CONSIDERATION
-    ul
-      li "Handing Over the Keys: Local Government Use of Nonprofit Economic Development Incorporations for Social Equity," with Alicia Schatteman and Aaron Deslatte. (Revise and Resubmit)
-      li "An Estimate of the Local Economic Impact of State-Level Earned Income Tax Credits." (Under Review).
-      li "The Economic Development Impact of Horizontal, Vertical, and Bordered Fragmentation in Metropolitan Regions," with Megan Hatch and Aaron Deslatte. (Under Review).
-      li "How Decision Makers Decide: A Multi-Method Cross-Sectoral Study of Community Development," with Erica Raleigh. (Under Contract, Routledge Press).
-    h3 RESEARCH GRANTS AND FELLOWSHIPS
-    ul
-      li Community Development Block Grant Activities and Local Economic Development, with Michael Overton, Brian Ellison, and Bruce Godfrey. The U.S. Department of Housing and Urban Development, Submitted October 2017 (Requesting $243,763- Decision Pending)
-      li Towson University Faculty Research and Development Committee Award ($6,000, 2017)
-      li Towson University College of Liberal Arts Faculty Research Grant ($2,000, 2016)
-      li Summer Dissertation Fellowship, George Washington University ($3000, 2015)
-      li Research Enhancement Grant, with Lyke Thompson ($50,000, 2009)
-    h3 ACADEMIC AWARDS
-    ul
-      li Lincoln Institute Junior Scholar Award, Lincoln Institute of Land Policy (2017)
-      li Research Fellow Award for Public Administration, Policy, and Affairs, ICPSR (Summer 2013)
-    h3 RESEARCH FELLOWSHIPS
-    ul
-      li Selective Excellence Graduate Student Fellowship, George Washington University (2011-2015)
-      li Public Policy Fellowship, Office of Governor Jennifer M. Granholm (Summer 2004)
-      li Presidential Scholarship, Wayne State University (2003-2005)
-    h3 TEACHING EXPERIENCE
-    ul
-      li MTRO 101: Introduction to Metropolitan Studies
-      li POSC 207 State and Local Government
-      li POSC 301: Research Methods
-      li POSC 304/504: Politics of Metropolitan Change and Growth
-      li POSC 472/572: Introduction to Public Policy Analysis
-      li POSC 486/586: Seminar in State and Local Government
-      li PS 101: American Government (Wayne State University)
-      li PPPA 6000: Cross-Sector Collaborations (George Washington University)
-      li PPPA 6019: MPP Capstone (George Washington University), with Elizabeth Rigby
-    h3 CONFERENCE PRESENTATIONS
-    ul
-      li Association of Public Policy, Analysis, and Management: 2012, 2014, 2015, 2017
-      li Urban Affairs Association: 2008, 2010, 2013, 2014, 2015, 2017
-      li American Political Science Association: 2013
-      li Midwest Political Science Association: 2007, 2009
-      li Southern Political Science Association: 2006, 2017
-    h3 SCHOLARLY SERVICE
-    ul
-      li Article Reviewer
+        li Assistant Professor, Department of Political Science, Towson University (2016- )
+      h3 EDUCATION
       ul
-        li Journal of Urban Affairs
-        li Urban Affairs Review
-        li Economic Development Quarterly
-        li State and Local Government Review (Outreach Coordinator)
-        li Small Business Economics
-        li Technovation​
-    h3 SOFTWARE
-    ul
-      li Stata, R, WinBUGS (Bayesian), Ci3 (Scripting language), LISREL
-    h3 ACADEMIC REFERENCES
-    ul
-      li Dr. Hal Wolman
+        li Ph.D. in Public Policy and Public Administration, George Washington University (Spring 2016)
+        li M.A. in Political Science, Wayne State University  (Spring 2007)
+        li B.A. in Political Science/Honors, Wayne State University (Spring 2005)
+      h3 CERTIFICATIONS
       ul
-        li Professor Emeritus, Public Policy and Administration and Political Science
-        li George Washington University
-        li Hwolman@gwu.edu
-      li Dr. Jered Carr
+        li Inter-University Consortium of Political and Social Research (ICPSR) (Summer 2013)
+        ul
+          li Empirical Implications of Theoretical Models (EITM) Certification
+          li Bayesian Analysis and Longitudinal Analysis
+      h3 RESEARCH AND TEACHING INTERESTS
       ul
-        li Professor and Head, Public Administration
-        li College of Urban Planning and Public Affairs
-        li Jbcarr@uic.edu
-      li Dr. Fay Cook
+        li Urban Policy and Politics, Metropolitan Change, Urban Economic Development, Public Finance, State and Local Government, Policy Evaluation, and Research Methods and Design
+      h3 PEER-REVIEWED PUBLICATIONS
       ul
-        li Assistant Director, National Science Foundation
-        li Director, Social, Behavior, and Economic Sciences Director, National Science Foundation
-        li Professor, Human Development and Social Policy (On Leave, Northwestern University)
-        li Faculty Fellow, Institute for Policy Research
-        li Fcook@nsf.gov
-      li Dr. Elizabeth Rigby
+        li "Hierarchies of Need in Sustainable Development: A Resource Dependence Approach for Local Governance," with Aaron Deslatte (2017, Urban Affairs Review).
+        li "Accounting for the State in Local Economic Development Incentive Usage." (2017, State and Local Government Review).
+        li "Testing the Differential Effect of Business Incubators on Firm Growth," with Lyke Thompson and Robert Mahu (2015, Economic Development Quarterly).
+        li "Manufacturing Job Loss in U.S. Deindustrializing Regions- Its Consequences and Implications for the Future: Examining Conventional Wisdom," with Hal Wolman and Howard Wial (2015, Economic Development Quarterly).
+        li "Testing Rubin's Model 25 Years Later: A Multi-Estimate and Multi-Level Approach to Local Economic Development Incentive Adoption (2013, Economic Development Quarterly).
+      h3 PEER-REVIEWED ARTICLES UNDER CONSIDERATION
       ul
-        li Associate Professor of Public Policy and Administration
-        li George Washington University
-        li Erigby@gwu.edu
+        li "Handing Over the Keys: Local Government Use of Nonprofit Economic Development Incorporations for Social Equity," with Alicia Schatteman and Aaron Deslatte. (Revise and Resubmit)
+        li "An Estimate of the Local Economic Impact of State-Level Earned Income Tax Credits." (Under Review).
+        li "The Economic Development Impact of Horizontal, Vertical, and Bordered Fragmentation in Metropolitan Regions," with Megan Hatch and Aaron Deslatte. (Under Review).
+        li "How Decision Makers Decide: A Multi-Method Cross-Sectoral Study of Community Development," with Erica Raleigh. (Under Contract, Routledge Press).
+      h3 RESEARCH GRANTS AND FELLOWSHIPS
+      ul
+        li Community Development Block Grant Activities and Local Economic Development, with Michael Overton, Brian Ellison, and Bruce Godfrey. The U.S. Department of Housing and Urban Development, Submitted October 2017 (Requesting $243,763- Decision Pending)
+        li Towson University Faculty Research and Development Committee Award ($6,000, 2017)
+        li Towson University College of Liberal Arts Faculty Research Grant ($2,000, 2016)
+        li Summer Dissertation Fellowship, George Washington University ($3000, 2015)
+        li Research Enhancement Grant, with Lyke Thompson ($50,000, 2009)
+      h3 ACADEMIC AWARDS
+      ul
+        li Lincoln Institute Junior Scholar Award, Lincoln Institute of Land Policy (2017)
+        li Research Fellow Award for Public Administration, Policy, and Affairs, ICPSR (Summer 2013)
+      h3 RESEARCH FELLOWSHIPS
+      ul
+        li Selective Excellence Graduate Student Fellowship, George Washington University (2011-2015)
+        li Public Policy Fellowship, Office of Governor Jennifer M. Granholm (Summer 2004)
+        li Presidential Scholarship, Wayne State University (2003-2005)
+      h3 TEACHING EXPERIENCE
+      ul
+        li MTRO 101: Introduction to Metropolitan Studies
+        li POSC 207 State and Local Government
+        li POSC 301: Research Methods
+        li POSC 304/504: Politics of Metropolitan Change and Growth
+        li POSC 472/572: Introduction to Public Policy Analysis
+        li POSC 486/586: Seminar in State and Local Government
+        li PS 101: American Government (Wayne State University)
+        li PPPA 6000: Cross-Sector Collaborations (George Washington University)
+        li PPPA 6019: MPP Capstone (George Washington University), with Elizabeth Rigby
+      h3 CONFERENCE PRESENTATIONS
+      ul
+        li Association of Public Policy, Analysis, and Management: 2012, 2014, 2015, 2017
+        li Urban Affairs Association: 2008, 2010, 2013, 2014, 2015, 2017
+        li American Political Science Association: 2013
+        li Midwest Political Science Association: 2007, 2009
+        li Southern Political Science Association: 2006, 2017
+      h3 SCHOLARLY SERVICE
+      ul
+        li Article Reviewer
+        ul
+          li Journal of Urban Affairs
+          li Urban Affairs Review
+          li Economic Development Quarterly
+          li State and Local Government Review (Outreach Coordinator)
+          li Small Business Economics
+          li Technovation​
+      h3 SOFTWARE
+      ul
+        li Stata, R, WinBUGS (Bayesian), Ci3 (Scripting language), LISREL
+      h3 ACADEMIC REFERENCES
+      ul
+        li Dr. Hal Wolman
+        ul
+          li Professor Emeritus, Public Policy and Administration and Political Science
+          li George Washington University
+          li Hwolman@gwu.edu
+        li Dr. Jered Carr
+        ul
+          li Professor and Head, Public Administration
+          li College of Urban Planning and Public Affairs
+          li Jbcarr@uic.edu
+        li Dr. Fay Cook
+        ul
+          li Assistant Director, National Science Foundation
+          li Director, Social, Behavior, and Economic Sciences Director, National Science Foundation
+          li Professor, Human Development and Social Policy (On Leave, Northwestern University)
+          li Faculty Fellow, Institute for Policy Research
+          li Fcook@nsf.gov
+        li Dr. Elizabeth Rigby
+        ul
+          li Associate Professor of Public Policy and Administration
+          li George Washington University
+          li Erigby@gwu.edu
