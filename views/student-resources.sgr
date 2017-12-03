@@ -1,0 +1,15 @@
+extends(src='_layout.sgr')
+  block(name='content')
+    h2 Student Resources
+    p This page is meant to be useful for students of MTRO 101: Intro to Metropolitan Studies, POSC 207: State and Local Government, and POSC 301: Research Methods at Towson University. If you are in one of my classes, then you are required to use several outside research sources as part of your paper assignment. This page is intended to provide you with resources that will make this process easier.
+    h3 My Panopto Videos
+    h3 Cook Library
+    h3 State
+    h3 City
+    h3 County
+    h3 Urban Regional Metro
+    h3 Global-Urban
+    h3 Cross-Cutting
+    h3 Data Sources
+    h3 Journals
+    h3 News Sources

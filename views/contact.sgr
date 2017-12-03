@@ -1,0 +1,11 @@
+extends(src='_layout.sgr')
+  block(name='content')
+    h2 contact information
+    p Feel free to reach me in any of the following ways
+    ul
+      li: a(href='https://www.researchgate.net/profile/Eric_Stokan') Research Gate
+      li: a(href='https://towson.academia.edu/EricStokan') academia.edu
+      li: a(href='https://www.linkedin.com/in/ericstokan/') linkedin
+      li: a(href='https://scholar.google.com/citations?user=pjv00O8AAAAJ') google scholar
+      li: a(href='https://twitter.com/ericjstokan') twitter
+      li: a(href='mailto:ericjstokan@gmail.com') email

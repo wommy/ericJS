@@ -1,0 +1,22 @@
+extends(src='_layout.sgr')
+  block(name='content')
+    h2 Economic Development Today
+    aside(style='float:right;')
+      h3 Eric Stokan
+      p I am an assistant professor of political science at Towson University.  I completed my Ph.D. in Public Policy and Public Administration at George Washington University.
+      h3 Archives
+      h3 Categories
+    div.feed
+      article
+        h3 Amazon HQ2.0
+        date 11/30/2017
+        div
+          p Communities across the United States and in Canada and Mexico are vying for Amazon HQ2.0.  It could mean up to 50,000 jobs, which will be fairly high paying.  In reality, this could be transformative for many communities should they land this headquarters.
+          p There are many questions that can be, and should be asked:
+          ol
+            li How many jobs are really likely to materialize- many estimates of jobs being created fall short of reality;
+            li Who will benefit- not everyone in the community will benefit, some will experience higher costs of living and be priced out of their homes or rental units while others will gain access to good jobs;
+            li What will governments offer in the form of incentives- This will likely be more than most should, New Jersey alone agreed to pay almost the entire bill;
+            li Will it be worth the costs- Rarely do you see careful economic evaluations before these decisions are made and often communities spend a lot in tax incentives only to see job projections fall short or the company leave; and
+            li What determines how much a government will offer? For this last question, I wrote a recent article for the London School of Economics USAPP blog which can be linked to here.
+          p We should continue to ask these questions and evaluate whether it is always worth spending a lot to attract companies.  I am not saying it isn't, but evaluations are needed which can account for not just employment in the short term- but that also account for the opportunity costs.

@@ -1,0 +1,42 @@
+extends(src='_layout.sgr')
+  block(name='content')
+    h2 Research
+    p.
+      My research focuses primarily on understanding why local governments enact economic development policies, what impact those policies have on economic growth, and the role of competition in regional economic development.
+    h3 PEER-REVIEWED PUBLICATIONS
+    p
+      a(href='http://journals.sagepub.com/eprint/PSTQs7Vh6jYmXcvcy2Y6/full') Hierarchies of Need in Sustainable Development: A Resource Dependence Approach for Local Governance
+      br
+      | with Aaron Deslatte
+      br
+      | Urban Affairs Review, 2017.
+    p.
+      Urban sustainability is a burgeoning focus for urban scholarship but rarely examined within the larger context of local government economic activities. Why should cities focusing on cutback management and competition for tax revenues be expected to devote all but the fleetest of attention to carbon footprints or metropolitan-wide environmental or social problems? To address this question, we utilize a resource dependence (RD) theoretical framework to conceptualize sustainable development as a pattern of contractual arrangements between governments and firms shaped by resource constraints. Utilizing survey data of U.S. cities and a Bayesian methodological approach, we present evidence that municipal job-recruitment efforts reduce the probability of observing an overall sustainability policy commitment. Cities which placed greater emphasis on retaining and developing existing businesses are also more committed to sustainability.
+    p
+      a(href='http://journals.sagepub.com/doi/abs/10.1177/0160323X17728780') Accounting for State Authorization in Local Economic Development Policy Usage
+      br
+      | State and Local Government Review, 2017.
+    p.
+      This article empirically tests the impact of failing to account for state-level authorization when explaining the factors that lead municipalities to use tax abatements, tax increment financing, and enterprise zones. Although existing research implicitly assumes that state-level authorization exists, this article demonstrates that this unfounded assumption leads to biased estimates using the 1999, 2004, and 2009 International City/County Management Association (ICMA) Economic Development Survey data on a nationwide set of municipalities. This article refines what is known about the factors, leading to the usage of these three policies before offering implications for practitioners and researchers of local economic development.
+    p
+      a(href='http://journals.sagepub.com/doi/abs/10.1177/0891242415597065') Testing the Differential Effect of Business Incubators on Firm Growth
+      br
+      | with Lyke Thompson and Robert J. Mahu
+      br
+      | Economic Development Quarterly, 2015.
+    p.
+      This research examines whether business incubators produce a differential effect on the growth of firms. Given that there is no direct estimate for the counterfactual (simultaneously measuring the economic growth of a firm outside and inside of an incubator), the authors use a propensity score matching technique to control for the factors that are related to both firm growth and the probability that an incubator manager would accept that firm for incubation. The analysis indicates that incubators have a significant positive impact on firm job creation, and this impact is not reduced if a matched comparison group is used. Furthermore, this study finds that incubated firms receive five times as many business services (legal, financial, marketing, etc.) as their nonincubated cohort. This may account for the networking effect found in previous studies.
+    p
+      a(href='http://journals.sagepub.com/doi/abs/10.1177/0891242414566865') Manufacturing Job Loss in U.S. Deindustrialized Regions- Its Consequences and Implications for the Future
+      br
+      | with Hal Wolman and Howard Wial
+      br
+      | Economic Development Quarterly, 2015.
+    p.
+      The loss of manufacturing jobs in the United States has been widely noted in the popular press as well as in public policy debate. We examine several of the most prominently made assertions about manufacturing decline and its consequences for deindustrializing metropolitan areas and find not all of them supported by the data. In particular, we find that, given their industrial structure some of these areas performed better than expected, that long-term economic distress was not inevitable, that manufacturing remains an important component in many metropolitan area economies, and that much of the growth in the service sector is based upon or complementary to the existence of manufacturing. We also find that low growth in these deindustrialized areas was due more to these regions losing their market share of individual industries to other U.S. regions than it was to the areas having an adverse industrial structure, that economies that were more diversified in 1980 did not have greater employment growth from 1980-2011 than those that were less diverse, and that declines in manufacturing did result in a movement of jobs from relatively high-wage to relatively low-wage industries and thus a decline in earnings per jobs.
+    p
+      a(href='http://journals.sagepub.com/doi/abs/10.1177/0891242413491315') Testing Rubin's Model 25 Years Later: A Multilevel Approach to Local Economic Development Incentive Adoption
+      br
+      | Economic Development Quarterly, 2015.
+    p.
+      Rubin sounded an alarm indicating that economic development practitioners were less than strategic in their economic development incentive adoption when he declared that developers “shoot anything that flies, claim anything that falls.” This article builds on the work of those who have focused on the determinants of incentive adoption in three ways. First, relying on matched cases of survey respondents to the 1999 and 2004 International City/County Management Association Economic Development Survey improves on using a single survey. Second, unlike previous efforts that relied mostly on ordinary least squares estimators to predict the total number of approaches adopted, this article uses a count model and distinguishes between types of approaches. Finally, this article accounts for city- and state-level impacts. This article finds that economic development decision making is strategic, partly determined by state-level effects, and is dependent on the types of economic development practices.
