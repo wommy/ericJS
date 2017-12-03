@@ -1,33 +1,36 @@
 extends(src='_layout.sgr')
   block(name='content')
-    div
+    .hero
       h2 Eric Stokan
-      // img
-      p
-      | I am an assistant professor in the  
-      a(href='https://www.towson.edu/cla/departments/polisci/') Department of Political Science
-      |  at Towson University.  My primary focus is economic development policy at the state, region, and local levels.
-      p I research why state and local governments use various sets of economic development policies, what impact those policies have on fostering economic growth, and how competition within metropolitan regions impact economic development decision making.
-      p My research has been featured most recently in Urban Affairs Review, State and Local Government Review, and Economic Development Quarterly.
+      img(src='/img/ejs_tiger.png' style='float:right;padding:2rem;padding-top:0;')
+      div
+        p(md) I am an assistant professor in the [Department of Political Science](https://www.towson.edu/cla/departments/polisci/) at Towson University.  My primary focus is economic development policy at the state, region, and local levels.
+        p I research why state and local governments use various sets of economic development policies, what impact those policies have on fostering economic growth, and how competition within metropolitan regions impact economic development decision making.
+        p My research has been featured most recently in Urban Affairs Review, State and Local Government Review, and Economic Development Quarterly.
     h2 Teaching
-    // img
-    p I  teach the following courses at Towson University:
-    ul
-      li MTRO 101: Metropolitan Studies
-      li POSC 207: State and Local Government
-      li POSC 301: Research Methods
-      li POSC 304: Politics of Metropolitan Change and Growth
-      li ​POSC 479: Introduction to Public Policy
-      li POSC 492: Seminar in State and Local Government ​
+    div
+      img(src='img/economic_development.png')
+      div(style='float:right;padding-left:2rem;')
+        p I  teach the following courses at Towson University:
+        ul
+          li MTRO 101: Metropolitan Studies
+          li POSC 207: State and Local Government
+          li POSC 301: Research Methods
+          li POSC 304: Politics of Metropolitan Change and Growth
+          li ​POSC 479: Introduction to Public Policy
+          li POSC 492: Seminar in State and Local Government ​
     h2 Feel free to contact me
-    ul
-      li.
-        Liberal Arts Building RM #3228
-        8000 York Road
-        Towson, MD 21252
-      li.
-        MAIN: (586) 202-7540
-        Office: (410) 704-2207
-      li.
-        Ericjstokan@gmail.com
-        Estokan@towson.edu
+    .flex
+      iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.34841635202!2d-76.60929778418337!3d39.39362287949725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80fa33f6d4a77%3A0x2021fa86e6d523ed!2s8000+York+Rd%2C+Towson%2C+MD+21252!5e0!3m2!1sen!2sus!4v1512272288239', width='300', height='300', frameborder='0', style='border:0', allowfullscreen='')
+      p(style='padding-left:2rem;')
+        a(href='//maps.google.com/?q=8000+York+Road+#3228+21252') Liberal Arts Building RM#3228,<br>8000 York Road, Towson, MD 21252
+        br
+        br
+        a(href='tel:1-586-202-7540') (586) 202-7540
+        br
+        a(href='tel:1-410-704-2207') (410) 704-2207
+        br
+        br
+        a(href='mailto:ericjstokan@gmail.com') ericjstokan@gmail.com
+        br
+        a(href='mailto:estokan@towson.edu') estokan@towson.edu

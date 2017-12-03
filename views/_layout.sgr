@@ -13,17 +13,17 @@ html
     link(rel='stylesheet' href='css/index.css')
 
   body
-    block(name='nav')
-      h1 ERIC STOKAN
-      nav
-        a(href='/') home
-        a(href='/cv') cv
-        a(href='/research') research
-        a(href='/student-resources') student resources
-        a(href='/contact') contact
-        a(href='/blog') blog
-
     main(role='main' id='{{ pageId }}')
+      block(name='nav')
+        h1 ERIC STOKAN
+        nav
+          a(href='/') home
+          a(href='/cv') cv
+          a(href='/research') research
+          a(href='/student-resources') student resources
+          a(href='/contact') contact
+          a(href='/blog') blog
+
       block(name='content')
 
     block(name='javascript')
