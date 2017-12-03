@@ -26,5 +26,9 @@ html
 
       block(name='content')
 
+      block(name='footer')
+        footer
+          p built with technomad
+
     block(name='javascript')
       script(src='js/main.js' defer)

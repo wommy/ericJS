@@ -8,6 +8,7 @@
     width: 100%
     height: auto
     padding: 4rem
+    align-items: stretch
     & .flex
       align-items: flex-start
       & img
@@ -27,7 +28,18 @@
     max-width: 35rem
 
 #blog
-
+  & .hero
+    background: url('/img/blog_hero.jpg') no-repeat center center
+    background-size: cover
+    width: 100%
+    height: 30vh
+    justify-content: center
+    align-items: center
+    & h2
+      color: #f3f565
+      font-size: 2.5em
+  & .blog
+    width: 50rem
   & aside
     order: 1
     flex: 1 3rem
@@ -35,7 +47,14 @@
   & .feed
     flex: 3
     margin-right: 3rem
+    & article
+      & h3, & date
+        display: inline-block
+        text-align: center
+        margin: 1rem 2rem
 
 #cv
   & div
     width: 50rem
+    & h3, & ul
+      margin: .5rem 0

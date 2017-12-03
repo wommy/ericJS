@@ -7,7 +7,6 @@ const sugarss = require('sugarss')
 const env = process.env.SPIKE_ENV
 
 module.exports = {
-  devtool: 'source-map',
   matchers: { html: '*(**/)*.sgr', css: '*(**/)*.sss' },
   ignore: ['**/_*', '**/.*', 'readme.md', 'yarn.lock', 'LICENSE'],
   reshape: htmlStandards({

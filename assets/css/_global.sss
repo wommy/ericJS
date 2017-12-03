@@ -10,7 +10,6 @@ main
   flex-direction: column
   align-items: center
   margin: auto
-  max-width: 900px
 
 nav
   display: flex
@@ -20,9 +19,20 @@ nav
     text-transform: uppercase
     text-decoration: none
 
+footer
+  width: 100%
+  border-top: 2px #f7f7f7 solid
+  margin-top: 3rem
+  & p
+    text-align: right
+    margin: 2rem 6rem 1rem
+
 .flex
   display: flex
   margin: auto
 
 .column
   flex-direction: column
+
+.inline
+  display: inline-block

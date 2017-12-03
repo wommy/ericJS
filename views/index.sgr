@@ -4,10 +4,12 @@ extends(src='_layout.sgr')
       h2 Eric Stokan
       div.flex
         img(src='/img/ejs_tiger.png')
-        div
-          p(md) I am an assistant professor in the [Department of Political Science](https://www.towson.edu/cla/departments/polisci/) at Towson University.  My primary focus is economic development policy at the state, region, and local levels.
-          p I research why state and local governments use various sets of economic development policies, what impact those policies have on fostering economic growth, and how competition within metropolitan regions impact economic development decision making.
-          p My research has been featured most recently in Urban Affairs Review, State and Local Government Review, and Economic Development Quarterly.
+        div(md).
+          I am an assistant professor in the [Department of Political Science](https://www.towson.edu/cla/departments/polisci/) at Towson University.  My primary focus is economic development policy at the state, region, and local levels.
+
+          I research why state and local governments use various sets of economic development policies, what impact those policies have on fostering economic growth, and how competition within metropolitan regions impact economic development decision making.
+
+          My research has been featured most recently in _Urban Affairs Review_, _State and Local Government Review_, and _Economic Development Quarterly_.
     h2 Teaching
     div.flex
       img(src='img/economic_development.png')
